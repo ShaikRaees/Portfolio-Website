@@ -40,7 +40,7 @@
                 <div class="hero-left">
                     <div class="user-name">Raiz Shaik</div>
                     <h1 class="hero-heading desc">Hi! Iam Raiz Shaik</h1>
-                    <h1 class="hero-heading">I am a Front-End Developer</h1>
+                    <h1 class="hero-heading">I am a <span id="auto-type"></span></h1>
                     <p class="hero-text">I'm a software developer and here is my Portfolio website. Here you'll learn about my journey as a Software developer.</p>
                     <button class="btn btn-pink">Hire Me</button>
                 </div>
@@ -165,7 +165,7 @@
         <div class="skills-container"  id="skills">
             <div class="skills-position">Skills</div>
             <div class="skills-left">
-                <h1 class="m-heading"><span>M</span>e and<br>My Tech Stack</h1>
+                <h1 class="m-heading"><span id="head-span">M</span>e and<br>My Tech Stack</h1>
                 <p>Hi Everyone My name is Shaik Raiz Basha I am a Full Stack Web Developer I am currently a Fresher and I am looking for Job. Now currently Iam upskilling in ReactJs. Iam good at making beautiful UI websites.<br><br>
                     I have a strong Foundation in Front-End web development and iam ready to learn new and updated Technologies. Iam a self motivated and Dedicated person.<br><br>
                     My Relevant skills are HTML, CSS, Javascript, Bootstrap, Git, Github, Java, C/C++, ReactJs.</p>
@@ -228,6 +228,16 @@
             
         </footer>
     </div>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
+<script>
+    var typed = new Typed("#auto-type" , {
+        strings: ["Front-End Developer" , "Software Developer"],
+        typespeed : 150,
+        backspeed: 150,
+        loop: true,
+        loopCount: Infinity
+    })
+</script>
 </body>
 </html>

@@ -118,6 +118,15 @@ a:hover {
     position: relative;   
 }
 
+#auto-type {
+    color: #152da8;
+    font-size: 40px;
+}
+span {
+    color: var(--bgOrange);
+    font-size: 45px;
+}
+
 .user-name {
     position: absolute;
     bottom: -128.5px;
@@ -577,7 +586,7 @@ a:hover {
     position: relative;
  }
 
- span {
+ #head-span {
     color: var(--bgOrange);
     font-size: 60px;
  }
