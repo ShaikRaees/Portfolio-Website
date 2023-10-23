@@ -1,3 +1,13 @@
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bgOrange);
+  border-radius: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +27,9 @@ body {
 
 #wrapper {
   /* border: 2px solid black; */
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: 100vh;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  /* height: 100vh; */
 }
 
 .container {
@@ -364,6 +374,7 @@ span {
   color: var(--bgOrange);
   font-size: 55px;
   letter-spacing: 1px;
+  text-decoration: underline;
 }
 
 .project-card {
@@ -604,15 +615,14 @@ span {
   position: relative;
 }
 
-#head-span {
-  color: var(--bgOrange);
-  font-size: 60px;
-}
-
 .m-heading {
   color: var(--bgOrange);
 }
 
+#head-span {
+  color: var(--bgOrange);
+  font-size: 60px;
+}
 .icons1 {
   width: 65px;
   transition: all 0.4s;
