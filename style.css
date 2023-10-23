@@ -1,3 +1,13 @@
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bgOrange);
+  border-radius: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +25,6 @@ body {
   --bgOrange: #f41515;
 }
 
-#wrapper {
-  /* border: 2px solid black; */
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: 100vh;
-}
 
 .container {
   width: 1200px;
@@ -59,8 +63,7 @@ body {
 a {
   text-decoration: none;
   color: black;
-  transition: 0.5s;
-  transform-origin: linear;
+  transition: 0.5s all;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
@@ -364,6 +367,7 @@ span {
   color: var(--bgOrange);
   font-size: 55px;
   letter-spacing: 1px;
+  text-decoration: underline;
 }
 
 .project-card {
@@ -604,15 +608,14 @@ span {
   position: relative;
 }
 
-#head-span {
-  color: var(--bgOrange);
-  font-size: 60px;
-}
-
 .m-heading {
   color: var(--bgOrange);
 }
 
+#head-span {
+  color: var(--bgOrange);
+  font-size: 60px;
+}
 .icons1 {
   width: 65px;
   transition: all 0.4s;
