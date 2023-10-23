@@ -25,12 +25,6 @@ body {
   --bgOrange: #f41515;
 }
 
-#wrapper {
-  /* border: 2px solid black; */
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
-  /* height: 100vh; */
-}
 
 .container {
   width: 1200px;
@@ -69,8 +63,7 @@ body {
 a {
   text-decoration: none;
   color: black;
-  transition: 0.5s;
-  transform-origin: linear;
+  transition: 0.5s all;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
